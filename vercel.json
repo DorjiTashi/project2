@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "mongodb+srv://meto:Meto1433@tashi.6wmgs57.mongodb.net/eco_db?retryWrites=true&w=majority"
+  }
+} 
